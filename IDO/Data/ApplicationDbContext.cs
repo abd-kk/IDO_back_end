@@ -45,7 +45,8 @@ namespace IDO.Data
             modelBuilder.Entity<ToDoTaskStatus>().HasData(
                 new ToDoTaskStatus { StatusId = 1,  StatusName = "To Do" },
                 new ToDoTaskStatus { StatusId = 2, StatusName = "Doing" },
-                new ToDoTaskStatus { StatusId = 3, StatusName = "Done" }
+                new ToDoTaskStatus { StatusId = 3, StatusName = "Done" },
+                new ToDoTaskStatus { StatusId = 4, StatusName = "None" }
             );
 
             modelBuilder.Entity<TaskImportance>().HasData(
